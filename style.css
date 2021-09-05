@@ -1,0 +1,90 @@
+body {
+    background-color:burlywood;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.todo-heading {
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-weight: 300;
+}
+.todo-heading h2 {
+    margin: 0;
+}
+
+.todo-heading p {
+    font-style: italic;
+    color: #666;
+    margin: 5px 0;
+}
+
+.todo-heading ol {
+    margin: 20px 0;
+}
+ 
+
+
+.todo-heading ol li {
+    margin: 5px 0;
+    padding: 3px;
+ 
+    user-select: none;
+    
+    transition: all 0.5s ease-out;
+}
+
+.todo-heading ol li:nth-child(even) {
+    background: #ddd;
+}
+
+.todo-heading .completed {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.todo-heading .buttons {
+    margin: 10px 2px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #0093D5;
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+
+.todo-heading .buttons:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.todo-heading input {
+    padding: 3px 6px;
+}
+
+.todo-heading form {
+    display: inline-block;
+}
+
+#control {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.todo-heading #clear-button {
+    background-color: #49B749;
+}
+
+.todo-heading #empty-button {
+    background-color: #9B1C20;
+}
+
+.todo-heading #save-button {
+    background-color: #49B749;
+}
